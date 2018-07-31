@@ -2247,6 +2247,14 @@ input, select, textarea {
 				background-color: #e8edec;
 			}
 
+			#main > section.five {
+				background-color: #f5fafa;
+			}
+
+			#main > section.six {
+				background-color: #ecf1f1;
+			}						
+
 /* Wide */
 
 	@media screen and (min-width: 961px) and (max-width: 1880px) {
@@ -2640,7 +2648,7 @@ input, select, textarea {
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: white;
+  color: black;
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
