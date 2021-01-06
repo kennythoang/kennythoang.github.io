@@ -102,6 +102,11 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+		
+	/* no-sidebar {
+		color: #5b5b5b;
+	} */
+
 	input, textarea, select {
 		font-size: 15pt;
 		line-height: 1.85em;
@@ -281,10 +286,12 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		/* margin-left: 50px; */
 	}
 
 		.row > * {
 			box-sizing: border-box;
+			/* margin-left: 20px; */
 		}
 
 		.row.gtr-uniform > * > :last-child {
@@ -2171,10 +2178,15 @@ input, select, textarea {
 		background: #fff;
 		margin: 0 0 2em 0;
 		padding: 6em 0 6em 0;
+		/* overflow: hidden; */
 	}
 
 		.wrapper.style2 {
 			padding-top: 0;
+			margin-left: 20px;
+			margin-right: 20px;
+			/* overflow: hidden; */
+			/* margin: 4.5em 4.5em 4.5em 0; */
 		}
 
 		/* #myVideo {
@@ -2793,6 +2805,7 @@ input, select, textarea {
 
 			.row > section, .row > article {
 				margin-bottom: 2em;
+				padding: 4.5em 0 4.5em 0;
 			}
 
 			header > p {
