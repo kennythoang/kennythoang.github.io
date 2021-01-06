@@ -2177,11 +2177,22 @@ input, select, textarea {
 			padding-top: 0;
 		}
 
-/* Header */
+		/* #myVideo {
+			position: relative;
+			right: 0;
+			bottom: 0;
+			min-width: 100%; 
+			min-height: 100%;
+			z-index: -1;
+		} */
+
+/* Header where can fix background image */
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
+		/* background-image: url("../../images/quad.jpg"); */
+		background-image: url("../../images/milky-way.gif");
+		background-color: black;
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
