@@ -97,7 +97,7 @@ enable_contact: false
 #### Phantom Navigation menu
 enable_nav: true
 nav_item:
-  - { url: '/', text: 'Home' }
+  - { url: '/', text: 'About' }
   # - { url: '/books', text: 'Books' }
   - { url: 'mailto:kennythoang@gmail.com', text: 'Email' }
   - { url: 'https://www.instagram.com/kenny.hoang', text: 'Instagram' }
