@@ -1,7 +1,478 @@
----
-layout: home
-pagination: 
-  enabled: true
----
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kenny Hoang</title>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" href = "assets/css/loading-screen-style.css">
+        <link rel="stylesheet" href="assets/css/homepage-style.css">
+        <link rel="stylesheet" href="assets/css/about-me-style.css">
+        <link rel="stylesheet" href="assets/css/experience-style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link rel = "icon" type = "image/svg+xml" href = "assets/img/favicon/favicon_svg.svg"> -->
+        <link rel = "alternate icon" href = "assets/img/favicon/favicon.ico">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ff8a01">
+    </head>
+    <body>
+        <section class = "loading-screen">
+            <img src="assets/img/hero_graphics/logo.png">
+            <div class = "ring one"></div>
+            <div class = "ring two"></div>
+        </section>
+        <section class = "hero" id = "homepage">
+            <div class = "hero-content">
+                <!-- <img id = "logo" src="assets/img/hero_graphics/favicon-32x32.png"> -->
+                <p id = "hero-text">Hello, I'm Kenny Hoang. Let's connect.</p> 
+                <nav id = "social-media-links">
+                    <a href="https://www.linkedin.com/in/kennythoang/" target = "_blank">
+                        <img class = "social-link" src="assets/img/hero_graphics/linkedin.svg">
+                    </a>
+                    <a href="https://www.instagram.com/kenny.hoang/" target = "_blank">
+                        <img class = "social-link" src="assets/img/hero_graphics/instagram.svg">
+                    </a>
+                    <a href="https://github.com/kennythoang" target = "_blank">
+                        <img class = "social-link" src="assets/img/hero_graphics/github.svg">
+                    </a>
+                    <a href="mailto:kennythoang@gmail.com" target = "_blank">
+                        <img class = "social-link" src="assets/img/hero_graphics/gmail_icon.svg" id = "mail">
+                    </a>
+                    
+                </nav>
+                <nav id = "page-navigation">
+                    <div class = "link-container">
+                        <div class = "nav-line"></div>
+                        <a href = "#homepage" id = "home-link">Home</a>
+                        <div class = "nav-line"></div>
+                    </div>
+                    <div class = "link-container">
+                        <div class = "nav-line"></div>
+                        <a href = "#about-me" id = "about-link">About Me</a>
+                        <div class = "nav-line"></div>
+                    </div>
+                    <div class = "link-container">
+                        <div class = "nav-line"></div>
+                        <a href = "#experience" id = "experience-link">Experience</a> 
+                        <div class = "nav-line"></div>
+                    </div>
+                    <div class = "link-container">
+                        <div class = "nav-line"></div>
+                        <a href = "#education" id = "education-link">Education</a> 
+                        <div class = "nav-line"></div>
+                    </div>
+                    <div class = "link-container">
+                        <div class = "nav-line"></div>
+                        <a href = "#talks" id = "talks-link">Talks</a> 
+                        <div class = "nav-line"></div>
+                    </div>
+                </nav>
+                <img src="assets/img/hero_graphics/hamburger.svg" id = "hamburger-icon">
+                <nav class = "menu">
+                    <img src="assets/img/hero_graphics/cancel.svg" id = "cancel-icon">
+                    <a href = "#homepage" id = "home-link-hamburger">Home</a>
+                    <a href = "#about-me" id = "about-link-hamburger">About Me</a>
+                    <a href = "#experience" id = "experience-link-hamburger">Experience</a> 
+                    <a href = "#education" id = "education-link-hamburger">Education</a> 
+                    <a href = "#talks" id = "talks-link-hamburger">Talks</a> 
+                </div>
+            </div>
+        </section>
+        
+        <section id = "about-me">
+            <h1 id = "about-me-header">About Me</h1>
+            <div class = "graphic-container left-fade" id = "cs-graphics">
+                <img src="assets/img/about_graphics/robot.png" id = "robot-graphic" width="100" height="100">
+                <img src="assets/img/about_graphics/climate.png" id = "climate-graphic" width="100" height="100">
+            </div>
+            <p id = "cs-description" class= "left-fade">
+                I'm a product manager at Applied Intuition helping automotive programs 
+                across the globe build towards a safe, autonomous future. I'm passionate 
+                about autonomous system validation, robotics, and climate tech.
+            </p>
+            <div class = "graphic-container right-fade" id = "life-graphics">
+                <img src="assets/img/about_graphics/book.png" id = "book-graphic" width="100" height="100">
+                <img src="assets/img/about_graphics/board_game.png" id = "board-game-graphic" width="100" height="100">
+            </div>
+            <div id = "dividing-line"></div>
+            <p id = "life-description" class = "right-fade">
+                I'm originally from North Carolina, but I've since set my roots in the Bay Area. 
+                In my free time, you'll find me reading a biography/memoir, playing a board game with friends,
+                or going on a long run.
+            </p>
+            <div id = "particles"></div>
+        </section>
 
-<!-- BLANK -->
+        <section id = "experience">
+            <h1>Experience</h1>
+            <div class = "section-heading">
+                <div class = "first section-line"></div>
+                <h3 class = "section-text-name">Work</h3>
+                <div class = "second section-line"></div>
+            </div>
+            <div class = "work-container">
+                <a href = "https://applied.co/" target = "_blank">
+                    <img src="assets/img/link_icon.svg" class = "link-icon">
+                </a>
+                <img src= "assets/img/work_experience/applied_logo.svg" class = "company-logo" id = "applied-logo">
+                <div class = "logo-description-dividing-line"></div>
+                <div class = "description-section">
+                    <h4>Product Manager</h4>
+                    <h5>Applied Intuition</h5>
+                    <h6>March 2023 - Present</h6>
+                    <div class = "job-responsibilities">
+                        <p>
+                            Applied Intuition provides software infrastructure and tools for engineering 
+                            and product development teams bringing autonomous systems to market. I joined 
+                            as product manager #2 and lead our Validation product suite.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class = "work-container">
+                <a href = "https://waymo.com/" target = "_blank">
+                    <img src="assets/img/link_icon.svg" class = "link-icon">
+                </a>
+                <img src= "assets/img/work_experience/waymo_logo.png" class = "company-logo" id = "waymo-logo">
+                <div class = "logo-description-dividing-line"></div>
+                <div class = "description-section">
+                    <h4>Product Manager Intern</h4>
+                    <h5>Waymo - Google Autonomous Vehicles</h5>
+                    <h6>June 2020 - January 2021</h6>
+                    <div class = "job-responsibilities">
+                        <p>
+                            Simulation and evaluation products for L4 robotaxi and trucking programs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class = "work-container">
+                <img src= "assets/img/work_experience/stealth_logo.jpeg" class = "company-logo" id = "stealth-logo">
+                <div class = "logo-description-dividing-line"></div>
+                <div class = "description-section">
+                    <h4>Consultant</h4>
+                    <h5>Stealth Startup</h5>
+                    <h6>March - June 2020</h6>
+                    <div class = "job-responsibilities">
+                        <p>
+                            Deep learning and computer vision software for edge devices. Applications for fleet 
+                            management, driver monitoring, ed tech, and smart health verticals.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class = "work-container">
+                <a href = "https://www.amazon.com/" target = "_blank">
+                    <img src="assets/img/link_icon.svg" class = "link-icon">
+                </a>
+                <img src= "assets/img/work_experience/amazon_logo.png" class = "company-logo" id = "amazon-logo">
+                <div class = "logo-description-dividing-line"></div>
+                <div class = "description-section">
+                    <h4>Software Engineer Intern</h4>
+                    <h5>Amazon - Search and Discovery team</h5>
+                    <h6>May - August 2019</h6>
+                    <div class = "job-responsibilities">
+                        <p>
+                            Worked on the Amazon search engine. Implemented algorithms from research papers, trained on customer 
+                            data, and built an end-to-end web application and data pipeline to demonstrate a beta version.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class = "work-container">
+                <a href = "https://antoraenergy.com/" target = "_blank">
+                    <img src="assets/img/link_icon.svg" class = "link-icon">
+                </a>
+                <img src= "assets/img/work_experience/antora_logo.png" class = "company-logo" id = "antora-logo">
+                <div class = "logo-description-dividing-line"></div>
+                <div class = "description-section">
+                    <h4>Engineer</h4>
+                    <h5>Antora Energy</h5>
+                    <h6>May - August 2019</h6>
+                    <div class = "job-responsibilities">
+                        <p>
+                            Antora Energy electrifies heavy industry with thermal energy storage for zero-carbon 
+                            heat and power and holds the world record for solid-state heat engine efficiency. 
+                            Backed by Breakthrough Energy Ventures, Lowercarbon Capital, Fifty Years, and 
+                            Cyclotron Road/Activate. Second hire (first intern) back when we were just in a 
+                            garage. Worked on hardware prototype and built first modeling software.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <section id = "education">
+                <h1>Education</h1>
+            <!-- <div class = "section-heading">
+                <div class = "first section-line"></div>
+                <h3 class = "section-text-name">Education</h3>
+                <div class = "second section-line"></div>
+            </div> -->
+            <div class = "work-container">
+                <a href = "https://www.gsb.stanford.edu/" target = "_blank">
+                    <img src="assets/img/link_icon.svg" class = "link-icon">
+                </a>
+                <img src= "assets/img/work_experience/gsb_logo.svg" class = "company-logo" id = "gsb-logo">
+                <div class = "logo-description-dividing-line"></div>
+                <div class = "description-section">
+                    <h4>Master of Business Administration (on deferred leave)</h4>
+                    <h5>Stanford Graduate School of Business</h5>
+                </div>
+            </div>    
+            <div class = "work-container">
+                <a href = "https://www.grasp.upenn.edu/academics/masters-degree-program/" target = "_blank">
+                    <img src="assets/img/link_icon.svg" class = "link-icon">
+                </a>
+                <img src= "assets/img/work_experience/penn_logo.png" class = "company-logo" id = "penn-logo">
+                <div class = "logo-description-dividing-line"></div>
+                <div class = "description-section">
+                    <h4>Master of Science in Engineering, Robotics</h4>
+                    <h5>University of Pennsylvania</h5>
+                    <div class = "job-responsibilities">
+                        <ul>
+                            <li>15+ graduate courses taken across machine learning, computer vision, statistics, computer graphics, control systems, brain-computer interfaces, and systems engineering</li>
+                            <li>ESE543 Human Systems Engineering Head Teaching Assistant: graduate-level course on human factors and systems engineering</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>    
+            <div class = "work-container">
+                <a href = "https://www.upenn.edu/" target = "_blank">
+                    <img src="assets/img/link_icon.svg" class = "link-icon">
+                </a>
+                <img src= "assets/img/work_experience/penn_logo.png" class = "company-logo" id = "penn-logo">
+                <div class = "logo-description-dividing-line"></div>
+                <div class = "description-section">
+                    <h4>Bachelor of Applied Science, Computer Science</h4>
+                    <h5>University of Pennsylvania</h5>
+                    <div class = "job-responsibilities">
+                        <ul>
+                            <li>Dean's List</li>
+                            <li>Senior thesis: GPT-3, Transformer Deep Learning Models, and Applications in Music Generation</li>
+                            <li>Minor in Engineering Entrepreneurship</li>
+                        </ul>
+                    </div>
+                    <div class = "job-responsibilities">
+                        <div>       
+                            <p>Activities and leadership:</p>
+                            <ul>
+                                <li>Professor Adam Grant's Impact Lab (organizational psychology). Personal shout-out on page 263 of #1 New York Times Bestseller: <a href="https://www.amazon.com/dp/1984878107/ref=tsm_1_fb_lk">Think Again</a></li>
+                                <li>Editor-in-Chief of PennScience Research Journal for our bi-annual issues on <a href="https://drive.google.com/file/d/1szs8bRRBR8pQQcZeCJ8mjxxAbDTNj0NF/view">Robotics</a> and <a href="https://drive.google.com/file/d/1ptC8U-EUuasXk3nj5R1QkSJiXCGaDB5c/view">Energy</a></li>
+                                <li>Chair of Moelis Access Science computer science program: volunteer computer science and head computer programming instructor for underserved Philadelphia-area high school students</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class = "work-container">
+                <a href = "https://www.ncssm.edu/" target = "_blank">
+                    <img src="assets/img/link_icon.svg" class = "link-icon">
+                </a>
+                <img src= "assets/img/work_experience/ncssm_logo.jpeg" class = "company-logo" id = "ncssm-logo">
+                <div class = "logo-description-dividing-line"></div>
+                <div class = "description-section">
+                    <h4>High School Diploma</h4>
+                    <h5>North Carolina School of Science and Mathematics</h5>
+                    <div class = "job-responsibilities">
+                        <ul>
+                            <li>Took college level: organic chemistry, biochemistry, materials chemistry, multivariable calculus, graph theory, advanced probability models, mathematical modeling, biology, music theory, medicinal chemistry</li>
+                            <li>Research in Chemistry program</li>
+                        </ul>
+                    </div>
+                    <div class = "job-responsibilities">
+                        <div>       
+                            <p>Activities and leadership:</p>
+                            <ul>
+                                <li>Captain of varsity swimming team (State meet qualifier), Conference champion (200 IM, 200 FR Relay, Men’s Team), year-round swimmer</li>
+                                <li>AP Chemistry w/ Advanced Topics teaching assistant</li>
+                                <li>National Youth Science Camp, NC delegate (1 of 2 selected by Governor Roy Cooper)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </section>
+        <section id = "talks">        
+            <h1>Talks</h1>     
+            <!-- <div class = "section-heading">
+                <div class = "first section-line"></div>
+                <h3 class = "section-text-name">Personal Projects</h3>
+                <div class = "second section-line"></div>
+            </div> -->
+            <div class = "project-flex">
+                <div class = "project-container left-fade">
+                    <a href = "https://www.nafems.org/downloads/North_America/2022/nafems-auto-abstracts-combined-11-17-22.pdf" target = "_blank">
+                        <img src="assets/img/link_icon.svg" class = "link-icon link-project">
+                    </a>
+                    <div class = "project-name">International Analysis and Simulation (NAFEMS) conference</div>
+                    <div class = "project-subheading">
+                        <div>December 2022</div>
+                        <div>Troy, Michigan, USA</div>
+                    </div>
+                    <img class = "project-image" src="assets/img/projects/nafems.svg">
+                    <div class = "project-description hidden" id = "nafems-description">
+                        <b>Unleashing the power of simulation for AV validation: A pragmatic framework</b>
+                        <br>
+                        <br>
+                        Discussed a V&V framework that programs can use to define system-level validation goals and objectives. This framework
+                        can be defined with a three-pronged approach: 1) System capabilities—what the automated driving
+                        system (ADS) needs to be able to do; 2) Requirements—How to define success for the ADS; 3)
+                        Operational design domain (ODD) taxonomy—Where the ADS needs to operate.
+                    </div>
+                    <img class = "arrow" src="assets/img/projects/arrow.svg">
+                </div>
+            <div class = "project-flex">
+                <div class = "project-container right-fade">
+                    <a href = "https://open.spotify.com/episode/4lbphnUTJV385oMIiNLRCq?si=6637866d80e5496f" target = "_blank">
+                        <img src="assets/img/link_icon.svg" class = "link-icon link-project">
+                    </a>
+                    <div class = "project-name">Partners for Automated Vehicle Education podcast</div>
+                    <div class = "project-subheading">
+                        <div>October 2022</div>
+                    </div>
+                    <img class = "project-image" src="assets/img/projects/pavecast.jpeg">
+                    <div class = "project-description hidden" id = "pavecast-description">
+                        <b>How to Test, Verify, and Validate AV Technology with Applied Intuition.</b>
+                        <br>
+                        <br>
+                        PAVEcast is the official podcast of Partners for Automated Vehicle Education, a nonprofit 
+                        coalition working to raise the level of public knowledge about autonomous vehicle 
+                        (self-driving car) technology. We discussed our recently published Verification and 
+                        Validation Handbook, which offers autonomy programs principles to consider for their 
+                        safety framework and best practices for establishing their V&V processes.
+                        <!-- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/4lbphnUTJV385oMIiNLRCq?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> -->
+                    </div>
+                    <img class = "arrow" src="assets/img/projects/arrow.svg">
+                </div>
+            </div>
+            <div class = "project-flex">
+                <div class = "project-container left-fade">
+                    <a href = "https://www.linkedin.com/posts/applied-intuition-inc_applied-intuitions-vv-handbook-verification-activity-6981007939398512640-sEKj?" target = "_blank">
+                        <img src="assets/img/link_icon.svg" class = "link-icon link-project">
+                    </a>
+                    <div class = "project-name">U.S. Capitol Hill Briefing</div>
+                    <div class = "project-subheading">
+                        <div>September 2022</div>
+                        <div>Washington D.C., USA</div>
+                    </div>
+                    <img class = "project-image" src="assets/img/projects/capitol_hill.jpeg">
+                    <div class = "project-description hidden" id = "capitol-hill-description">
+                        <b>Verification and Validation for Autonomous Systems</b>
+                        <br>
+                        <br>
+                        Presented for and discussed with U.S. Senate staffers:
+                        <ul>
+                            <li>What is V&V and how is it different from Test & Evaluation (T&E)?</li>
+                            <li>Where does V&V fit into the development cycle?</li>
+                            <li>What are the pros and cons of different methods of testing, e.g., on-road testing, test-track testing, and virtual testing?</li>
+                            <li>What is a safety assurance case? What role should industry and government play in building a safety case?</li>
+                        </ul>
+                    </div>
+                    <img class = "arrow" src="assets/img/projects/arrow.svg">
+                </div>
+            <div class = "project-flex">
+                <div class = "project-container right-fade">
+                    <a href = "https://blog.applied.co/blog-post/adas-av-technology-expo" target = "_blank">
+                        <img src="assets/img/link_icon.svg" class = "link-icon link-project">
+                    </a>
+                    <div class = "project-name">ADAS and Autonomous Vehicle Technology Expo</div>
+                    <div class = "project-subheading">
+                        <div>September 2022</div>
+                        <div>San Jose, California, USA</div>
+                    </div>
+                    <img class = "project-image" src="assets/img/projects/av_expo.png">
+                    <div class = "project-description hidden" id = "av-expo-description">
+                        <b>Best Practices for Building Safe Autonomous Systems</b>
+                        <br>
+                        <br>
+                        Discussed how programs should expand coverage effectively by using a combination of scenario
+                        creation approaches, guide scenario creation efforts with coveraege aalysis, and leverage automated testing 
+                        to conduct simulation tests at scale. 
+                    </div>
+                    <img class = "arrow" src="assets/img/projects/arrow.svg">
+                </div>
+            </div>    
+            <div class = "project-flex">
+                <div class = "project-container left-fade">
+                    <a href = "https://www.autotechcouncil.com/" target = "_blank">
+                        <img src="assets/img/link_icon.svg" class = "link-icon link-project">
+                    </a>
+                    <div class = "project-name">Autotech Council</div>
+                    <div class = "project-subheading">
+                        <div>September 2022</div>
+                        <div>Mountain View, California, USA</div>
+                    </div>
+                    <img class = "project-image" src="assets/img/projects/autotech.webp">
+                    <div class = "project-description hidden" id = "autotech-description">
+                        <b>Applied Intuition company pitch</b>
+                        <br>
+                        <br>
+                        Represented Applied Intuition during a 5 minute pitch on our product offerings.
+                    </div>
+                    <img class = "arrow" src="assets/img/projects/arrow.svg">
+                </div>
+            <div class = "project-flex">
+                <div class = "project-container right-fade">
+                    <a href = "https://blog.applied.co/blog-post/tech-ad" target = "_blank">
+                        <img src="assets/img/link_icon.svg" class = "link-icon link-project">
+                    </a>
+                    <div class = "project-name">Tech AD Europe conference</div>
+                    <div class = "project-subheading">
+                        <div>April 2022</div>
+                        <div>Berlin, Germany</div>
+                    </div>
+                    <img class = "project-image" src="assets/img/projects/techad_europe.png">
+                    <div class = "project-description hidden" id = "techad-europe-description">
+                        <b>How Can You Define a Safety Case Framework and Then Safely Develop, Test, and Deploy Your Autonomous Systems for Commercialization</b>
+                        <br>
+                        <br>
+                        Hosted four World Café sessions where we discussed and shared challenges on verification and validation and its 
+                        importance for autonomy development. 
+                    </div>
+                    <img class = "arrow" src="assets/img/projects/arrow.svg">
+                </div>
+            </div>  
+            <div class = "project-flex">
+                <div class = "project-container left-fade">
+                    <a href = "https://www.autonomous-driving-detroit.com/" target = "_blank">
+                        <img src="assets/img/link_icon.svg" class = "link-icon link-project">
+                    </a>
+                    <div class = "project-name">Tech AD USA conference</div>
+                    <div class = "project-subheading">
+                        <div>November 2021</div>
+                        <div>Detroit, Michigan, USA</div>
+                    </div>
+                    <img class = "project-image" src="assets/img/projects/techad_usa.png">
+                    <div class = "project-description hidden" id = "techad-usa-description">
+                        <b>Strategies for creating a large-scale scenario library for autonomous vehicle development</b>
+                        <br>
+                        <br>
+                        Discussed different methods for how to generate scenarios at scale (e.g. logical and abstract scenario creation, 
+                        log resimulation) and techniques for how to measure and assess coverage. 
+                    </div>
+                    <img class = "arrow" src="assets/img/projects/arrow.svg">
+                </div>
+            <div class = "project-flex">
+                <div class = "project-container right-fade">
+                    <a href = "https://www.oss-5.com/" target = "_blank">
+                        <img src="assets/img/link_icon.svg" class = "link-icon link-project">
+                    </a>
+                    <div class = "project-name">OSS.5 conference</div>
+                    <div class = "project-subheading">
+                        <div>September 2021</div>
+                        <div>Berlin, Germany</div>
+                    </div>
+                    <img class = "project-image" src="assets/img/projects/oss5_europe.png">
+                    <div class = "project-description hidden" id = "oss5-description">
+                        <b>Detecting failure cases for the validation of autonomous vehicles</b>
+                        <br>
+                        <br>
+                        Discussed machine learning-based techniques to effectively surface failing scenarios and minimize normal, uninteresting cases during 
+                        autonomous vehicle testing and validation.
+                    </div>
+                    <img class = "arrow" src="assets/img/projects/arrow.svg">
+                </div>
+            </div>  
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.js"></script>
+        <script src = "assets/js/script.js"></script>
+    </body>
+</html>
